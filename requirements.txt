@@ -1,0 +1,31 @@
+# --- Core deep learning stack ---
+torch>=2.3.0
+torchvision>=0.18.0
+transformers>=4.42.0
+diffusers>=0.30.0
+accelerate>=0.31.0
+safetensors>=0.4.3
+xformers>=0.0.27; platform_system == "Linux"
+
+# --- Hugging Face ---
+huggingface_hub>=0.24.0
+
+# --- UI ---
+gradio>=4.40.0
+
+# --- Video / image / audio processing ---
+opencv-python-headless>=4.10.0
+Pillow>=10.3.0
+numpy>=1.26.0
+moviepy>=1.0.3
+imageio>=2.34.0
+imageio-ffmpeg>=0.5.1
+
+# --- Optional voiceover (TTS) ---
+edge-tts>=6.1.12
+pyttsx3>=2.90
+
+# --- Misc ---
+requests>=2.32.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
